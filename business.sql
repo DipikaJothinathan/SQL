@@ -1,6 +1,6 @@
 USE business_db; 
 
--- Oldest business on each continent?
+-- Oldest business on each continent
 SELECT bc.continent, bc.business, bc.year_founded, bc.country
 FROM (
     SELECT business, year_founded, country, continent
